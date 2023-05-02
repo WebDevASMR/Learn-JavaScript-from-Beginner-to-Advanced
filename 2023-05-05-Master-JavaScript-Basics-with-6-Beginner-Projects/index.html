@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JavaScript Basics | WebDevASMR</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+  <body>
+    <img src="logo.png" alt="" />
+    <main class="apps-grid">
+      <div class="app">
+        <p>Pick a colour and it will change the background</p>
+        <input type="color" name="color-picker" id="color-picker" value="#f9f9f9">
+      </div>
+      <div class="app">
+        <button id="quote-btn">Get a random quote</button>
+        <p id="quote-text"></p>
+      </div>
+      <div class="app">
+        <p>Count characters</p>
+        <span id="character-count">0</span>
+        <textarea name="count-chars" id="textarea" cols="30" rows="5"></textarea>
+      </div>
+      <div class="app">
+        Palindrome Checker
+        <input type="text" name="palindrome-input" id="palindrome-input" value="hello">
+        <button id="palindrome-btn">Check Palindrome</button>
+        <p id="palindrome-result"></p>
+      </div>
+      <div class="app">
+        <p>Check Anagram</p>
+        <input type="text" name="string-one" id="string-one" placeholder="Enter first string">
+        <input type="text" name="string-two" id="string-two" placeholder="Enter second string">
+        <button id="anagram-btn">Check Anagram</button>
+        <p id="anagram-result"></p>
+      </div>
+      <div class="app">
+        <p>Search List</p>
+        <input type="text" name="search-list" id="search-list" placeholder="Search list...">
+        <ul id="list">
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>SCSS</li>
+          <li>JavaScript</li>
+          <li>TypeScript</li>
+          <li>Java</li>
+        </ul>
+      </div>
+    </main>
+
+    <script src="app.js"></script>
+  </body>
+
+</html>
