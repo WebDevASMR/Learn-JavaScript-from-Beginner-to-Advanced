@@ -108,10 +108,10 @@ function isAnagram(str1, str2) {
       .split('')
       .sort()
       .join('');
-
-    // compare the normalised strings
-    return normalise(str1) === normalise(str2);
   };
+
+  // compare the normalised strings
+  return normalise(str1) === normalise(str2);
 }
 
 /*
