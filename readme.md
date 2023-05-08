@@ -14,4 +14,5 @@ Each project folder contains a `README.md` file that explains the project's obje
 
 _This will be updated as new projects are added_
 
-1. [Master JavaScript Basics with 6 Beginner Projects](./2023-05-05-Master-JavaScript-Basics-with-6-Beginner-Projects)
+1. [Master JavaScript Basics](./1.%20Master%20JavaScript%20Basics/)
+2. [Simple Countdown Timer](./2.%20Simple%20Countdown%20Timer/)

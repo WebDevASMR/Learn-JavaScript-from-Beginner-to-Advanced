@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Countdown Timer | WebDevASMR</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+
+  <body>
+    <div id="countdown">
+      <img src="logo.png" alt="WebDevASMR">
+      <h1>Countdown Timer</h1>
+      <input type="datetime-local" name="end-time" id="end-time">
+      <div class="buttons">
+        <button id="start" disabled>Start</button>
+        <button id="stop" disabled>Stop</button>
+      </div>
+      <div id="timer"></div>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+
+</html>
