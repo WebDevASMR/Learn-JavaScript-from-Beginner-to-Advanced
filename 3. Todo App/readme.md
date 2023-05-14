@@ -4,5 +4,5 @@ Build an intermediate-level To-do list application using HTML, SCSS, and JavaScr
 
 This project takes a step further as we employ SCSS instead of CSS, leveraging a Visual Studio Code extension to compile our SCSS code into CSS. This efficient workflow helps create a practical, user-friendly to-do list app.
 
-[Watch the video here:](https://youtu.be/RcaGDcydOss?sub_confirmation=1)
-[![YouTube](./thumbnail.jpg)](https://youtu.be/RcaGDcydOss?sub_confirmation=1)
+[Watch the video here:](https://youtu.be/AmL4qFjkWx0?sub_confirmation=1)
+[![YouTube](./thumbnail.jpg)](https://youtu.be/AmL4qFjkWx0?sub_confirmation=1)
