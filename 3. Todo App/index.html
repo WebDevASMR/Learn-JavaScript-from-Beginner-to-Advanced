@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo App | WebDevASMR</title>
+    <link rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+
+  <body>
+    <main>
+      <div class="todos">
+        <nav id="todos-nav">
+          <button data-filter="all" class="active">
+            <i class="fa-solid fa-box-archive"></i> All
+          </button>
+          <button data-filter="today">
+            <i class="fa-solid fa-calendar-day"></i> Today
+          </button>
+          <button data-filter="overdue">
+            <i class="fa-solid fa-circle-exclamation"></i> Overdue
+          </button>
+          <button data-filter="scheduled">
+            <i class="fa-solid fa-clock"></i> Scheduled
+          </button>
+          <button data-filter="pending">
+            <i class="fa-regular fa-circle"></i> Pending
+          </button>
+          <button data-filter="completed">
+            <i class="fa-regular fa-circle-check"></i> Completed
+          </button>
+        </nav>
+
+        <form id="add-todo-form">
+          <input type="text" name="todo-text" id="todo-text" placeholder="Todo..." required>
+          <input type="date" name="todo-date" id="todo-date" required>
+          <button id="add-todo-btn" class="active" type="submit">Add</button>
+        </form>
+
+        <ul id="todos-list">
+          <!-- todo's will be loaded here dynamically -->
+        </ul>
+      </div>
+    </main>
+
+    <script src="app.js"></script>
+  </body>
+
+</html>
