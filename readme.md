@@ -16,3 +16,5 @@ _This will be updated as new projects are added_
 
 1. [Master JavaScript Basics](./1.%20Master%20JavaScript%20Basics/)
 2. [Simple Countdown Timer](./2.%20Simple%20Countdown%20Timer/)
+3. [Todo List App](./3.%20Todo%20App/)
+4. [Image Slideshow App](./4.%20Image%20Slideshow/)
