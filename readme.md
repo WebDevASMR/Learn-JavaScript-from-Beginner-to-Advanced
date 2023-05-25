@@ -18,3 +18,4 @@ _This will be updated as new projects are added_
 2. [Simple Countdown Timer](./2.%20Simple%20Countdown%20Timer/)
 3. [Todo List App](./3.%20Todo%20App/)
 4. [Image Slideshow App](./4.%20Image%20Slideshow/)
+5. [Realtime Weather App](./5.%20Weather%20App/)

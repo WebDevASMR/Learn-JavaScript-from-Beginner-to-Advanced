@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App | WebDevASMR</title>
+    <link rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+
+  <body>
+    <main>
+      <section class="location-input">
+        <i class="fa-solid fa-magnifying-glass"></i>
+        <input type="text" id="weather-location" placeholder="Enter your location..." autocomplete="off">
+        <ul id="location-results" class="hidden"></ul>
+        <!-- results wil be populated here from the API -->
+      </section>
+
+      <section class="weather-grid">
+        <div class="weather-grid__weather weather-card weather-card--hidden">
+          <div class="weather-card__content">
+            <div class="weather-card__title">
+              <h1><i class="fa-solid fa-location-dot"></i> <span id="today-location"></span></h1>
+              <p id="today-time"></p>
+            </div>
+
+            <div class="weather-card__temp">
+              <p id="today-temp"></p>
+              <div class="weather-card__temp__minmax">
+                <p>Minimum: <span id="today-min"></span></p>
+                <p>Maximum: <span id="today-max"></span></p>
+              </div>
+              <p id="today-conditions"></p>
+            </div>
+          </div>
+        </div>
+
+        <div class="weather-grid__wind weather-card weather-card--hidden">
+          <div class="weather-card__detail">
+            <h2>Wind</h2>
+            <p id="today-wind"></p>
+          </div>
+          <i class="fa-solid fa-wind"></i>
+        </div>
+
+        <div class="weather-grid__rain weather-card weather-card--hidden">
+          <div class="weather-card__detail">
+            <h2>Chance of Rain</h2>
+            <p id="today-rain"></p>
+          </div>
+          <i class="fa-solid fa-umbrella"></i>
+        </div>
+
+        <div class="weather-grid__pressure weather-card weather-card--hidden">
+          <div class="weather-card__detail">
+            <h2>Pressure</h2>
+            <p id="today-pressure"></p>
+          </div>
+          <i class="fa-solid fa-lungs"></i>
+        </div>
+
+        <div class="weather-grid__uv-index weather-card weather-card--hidden">
+          <div class="weather-card__detail">
+            <h2>UV Index</h2>
+            <p id="today-uv"></p>
+          </div>
+          <i class="fa-solid fa-sun"></i>
+        </div>
+      </section>
+    </main>
+
+    <script src="app.js"></script>
+  </body>
+
+</html>
